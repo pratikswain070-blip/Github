@@ -21,9 +21,20 @@ print("hello :" , A ,B )
 name = "harish"
 age = 50
 print(f"hello {name} your age is {age} ")
-"""
+
 
 a= int(input("number1 da:"))
 b= int(input("dusra no bata :"))
 c= a+b
 print(f" tera answer ya {a} aur {b} ko add karna ba ya hai {c} ")
+"""
+
+a=7
+print(type(a))
+b=6
+print(type(b))
+c= "ithi"
+print(type(c))
+z=3 + 4j
+print(z)
+
