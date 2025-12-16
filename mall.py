@@ -1,0 +1,18 @@
+a=input("Enter Product Name: ")
+b=input("Enter Product Price: ")
+c=input("Enter Quantity: ")
+d=float(b) * int(c)
+e=0.10 * d
+f=d - e
+print("----------Bill Details--------")
+print("Product Name:", a)
+print("Product Price:", b)
+print("Quantity:", c)
+print("Total Price:", d)
+print("Final Price after 10% discount:", f)
+print("-----------------Types------------")
+print("Type of Product Name:", type(a))
+print("Type of Product Price:", type(b))
+print("Type of Quantity:", type(c))
+print("Type of Total Price:", type(d))
+print("Type of Final Price after discount:", type(f))
